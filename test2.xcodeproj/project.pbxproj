@@ -17,6 +17,7 @@
 		E8E5DD6A1787ADC500D6D0C5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E5DD4A1787ADC500D6D0C5 /* Cocoa.framework */; };
 		E8E5DD721787ADC500D6D0C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8E5DD701787ADC500D6D0C5 /* InfoPlist.strings */; };
 		E8E5DD751787ADC500D6D0C5 /* test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E5DD741787ADC500D6D0C5 /* test2Tests.m */; };
+		E8E5DD831787AE8800D6D0C5 /* str.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8E5DD821787AE8800D6D0C5 /* str.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E8E5DD711787ADC500D6D0C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E8E5DD731787ADC500D6D0C5 /* test2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test2Tests.h; sourceTree = "<group>"; };
 		E8E5DD741787ADC500D6D0C5 /* test2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2Tests.m; sourceTree = "<group>"; };
+		E8E5DD821787AE8800D6D0C5 /* str.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = str.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		E8E5DD3B1787ADC500D6D0C5 = {
 			isa = PBXGroup;
 			children = (
+				E8E5DD821787AE8800D6D0C5 /* str.strings */,
 				E8E5DD501787ADC500D6D0C5 /* test2 */,
 				E8E5DD6D1787ADC500D6D0C5 /* test2Tests */,
 				E8E5DD491787ADC500D6D0C5 /* Frameworks */,
@@ -227,6 +230,7 @@
 				E8E5DD551787ADC500D6D0C5 /* InfoPlist.strings in Resources */,
 				E8E5DD5B1787ADC500D6D0C5 /* Credits.rtf in Resources */,
 				E8E5DD611787ADC500D6D0C5 /* MainMenu.xib in Resources */,
+				E8E5DD831787AE8800D6D0C5 /* str.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +446,7 @@
 				E8E5DD7A1787ADC500D6D0C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8E5DD7B1787ADC500D6D0C5 /* Build configuration list for PBXNativeTarget "test2Tests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +455,7 @@
 				E8E5DD7D1787ADC500D6D0C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
